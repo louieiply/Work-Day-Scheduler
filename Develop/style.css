@@ -31,9 +31,18 @@ textarea {
 }
 
 .row {
-  white-space: pre-wrap;
+  /* white-space: pre; */
   height: 80px;
   border-top: 1px solid white;
+}
+.fix-height{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+
+}
+
+.link {
+
 }
 
 .hour {
@@ -65,7 +74,7 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn h5 i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
