@@ -41,10 +41,6 @@ textarea {
 
 }
 
-.link {
-
-}
-
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -73,8 +69,12 @@ textarea {
   background-color: #06aed5;
   color: white;
 }
+.saveBtn h5 i{
+  color:black;
+}
 
 .saveBtn h5 i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  color:grey;
 }
