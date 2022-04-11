@@ -44,11 +44,12 @@ $(document).ready(function () {
             
         }
     }
-
+    let currentDayInfo = $("#currentDay");
     let timeblocks_container = $("#timeblocks-container");
     const border_setting = "1px dashed black";
-    let currentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
+    let currentDate = moment().format('dddd, MMMM Do');
 
+    currentDayInfo.text(currentDate);
     let timeBlock = $("<div/>").attr("class","row justify-content-center align-items-center h-100");    
     timeBlock.appendTo(timeblocks_container);
     for (let index = 8; index < 18; index++) {
