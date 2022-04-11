@@ -39,5 +39,5 @@ Webpage display and store your work day schedule.
 
 ## Deployment Link
 
-https://louieiply.github.io/Work-Day-Scheduler/
+https://louieiply.github.io/Work-Day-Scheduler/Develop/index.html
 
