@@ -33,16 +33,10 @@ $(document).ready(function () {
     //Save Description
     function saveDes(fieldText,index){
         var id = "#save" + index;
-        if($(id).val() === ""){
-            alert("Textarea is empty");
-            return;
-        }
-        else{
             var itemlist = JSON.parse(localStorage.getItem("times"));
             itemlist[index-8].description = fieldText;
             localStorage.setItem("times",JSON.stringify(itemlist));
             
-        }
     }
     let currentDayInfo = $("#currentDay");
     let timeblocks_container = $("#timeblocks-container");
